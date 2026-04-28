@@ -1,9 +1,4 @@
-Para que o seu GitHub chame a atenção de recrutadores ou professores, o seu README.md precisa ser visual e direto ao ponto.
 
-Aqui está o código completo em Markdown, já estruturado para destacar que você sabe usar Python para automação e desenvolvimento de jogos.
-
-Copie o código abaixo:
-Markdown
 # 🕹️ Catch The Hearts: Asset Pipeline & Game
 
 Este projeto demonstra um fluxo completo de desenvolvimento: desde a **automação de assets** (preparação de imagens e sons) até a criação de um **jogo funcional** em Pygame. 
