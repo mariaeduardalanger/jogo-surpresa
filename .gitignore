@@ -1,10 +1,33 @@
-/Asset Processor.py
-/assets
-/assets_brutos
-/assets_processados
-/build
-/dist
-/jogo surpresa.spec
-/MeuJogoSurpresa.spec
-/numero aleatorio.py
-/teste py game.py
+
+# --- PYTHON ---
+# Arquivos compilados (aceleram o Python, mas não devem ir ao Git)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (VENV) - Crucial ignorar para não subir GBs de bibliotecas
+venv/
+.venv/
+env/
+ENV/
+
+# --- VS CODE ---
+# Configurações locais do editor (como o caminho do seu interpretador)
+.vscode/
+
+# --- PYGAME & MULTIMÍDIA ---
+# Arquivos temporários de áudio ou logs que podem surgir
+*.log
+.pytest_cache/
+
+# --- DISTRIBUIÇÃO (PYINSTALLER) ---
+# Pastas criadas quando você gera o .exe
+dist/
+build/
+*.spec
+
+# --- SISTEMA ---
+# Arquivos inúteis que o Windows e Mac criam sozinhos
+Thumbs.db
+desktop.ini
+.DS_Store
